@@ -12,7 +12,7 @@ services:
 
   web:
 
-    image: ebuzaneli/xampp_mysql_php7
+  image: ebuzaneli/xampp_mysql_php7
     
     hostname: xampp-buzza
     container_name: xampp-buzza
@@ -40,5 +40,7 @@ services:
       
       
 networks:
+
   buzza-xampp-network:
+  
     driver: bridge
