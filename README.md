@@ -9,7 +9,9 @@ Dockerfile
 version: '2'
 
 services:
+
   web:
+
     image: ebuzaneli/xampp_mysql_php7
     
     hostname: xampp-buzza
