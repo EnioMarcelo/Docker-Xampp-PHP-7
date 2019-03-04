@@ -1,0 +1,881 @@
+2019-03-03 16:30:34 59 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:30:34 139804189783872 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:30:34 139804189783872 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 209 ...
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:30:34 139804189783872 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1762733
+2019-03-03 16:30:34 139803785942784 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:30:34 139804189783872 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:30:34 139804189783872 [Note] Server socket created on IP: '::'.
+2019-03-03 16:30:35 139804189783872 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:32:51 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:32:51 139665212303168 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:32:51 139665212303168 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1763920 in the ib_logfiles!
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:32:51 139665212303168 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:32:52 139665212303168 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:32:52 139665212303168 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:32:52 139665212303168 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:32:52 139665212303168 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:32:52 139665212303168 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1763920
+2019-03-03 16:32:52 139664803485440 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:32:52 139665212303168 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:32:52 139665212303168 [Note] Recovering after a crash using tc.log
+2019-03-03 16:32:52 139665212303168 [Note] Starting crash recovery...
+2019-03-03 16:32:52 139665212303168 [Note] Crash recovery finished.
+2019-03-03 16:32:52 139665212303168 [Note] Server socket created on IP: '::'.
+2019-03-03 16:32:52 139665212303168 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:35:23 64 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:35:23 140345531762496 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:35:23 140345531762496 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 214 ...
+2019-03-03 16:35:23 140345531762496 [Warning] Setting lower_case_table_names=2 because file system for /opt/lampp/var/mysql/ is case insensitive
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1768224 in the ib_logfiles!
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:35:23 140345531762496 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:35:24 140345531762496 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:35:24 140345531762496 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:35:24 140345531762496 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:35:24 140345531762496 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:35:24 140345531762496 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1768224
+2019-03-03 16:35:24 140345127970560 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:35:24 140345531762496 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:35:24 140345531762496 [Note] Recovering after a crash using tc.log
+2019-03-03 16:35:24 140345531762496 [Note] Starting crash recovery...
+2019-03-03 16:35:24 140345531762496 [Note] Crash recovery finished.
+2019-03-03 16:35:24 140345531762496 [Note] Server socket created on IP: '::'.
+2019-03-03 16:35:25 140345531762496 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:38:35 64 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:38:35 140409047570240 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:38:35 140409047570240 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 217 ...
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1768234 in the ib_logfiles!
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:38:35 140409047570240 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:38:36 140409047570240 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:38:36 140409047570240 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:38:36 140409047570240 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:38:36 140409047570240 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:38:36 140409047570240 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1768234
+2019-03-03 16:38:36 140408638134016 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:38:36 140409047570240 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:38:36 140409047570240 [Note] Recovering after a crash using tc.log
+2019-03-03 16:38:36 140409047570240 [Note] Starting crash recovery...
+2019-03-03 16:38:36 140409047570240 [Note] Crash recovery finished.
+2019-03-03 16:38:36 140409047570240 [Note] Server socket created on IP: '::'.
+2019-03-03 16:38:36 140409047570240 [ERROR] mysqld: Table './mysql/user' is marked as crashed and should be repaired
+2019-03-03 16:38:36 140409047570240 [Warning] Checking table:   './mysql/user'
+2019-03-03 16:38:36 140409047570240 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2019-03-03 16:38:36 140409047570240 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:39:07 62 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:39:07 140179655866176 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:39:07 140179655866176 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1768244 in the ib_logfiles!
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:39:07 140179655866176 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:39:08 140179655866176 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:39:08 140179655866176 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:39:08 140179655866176 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1768244
+2019-03-03 16:39:08 140179251644160 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:39:08 140179655866176 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:39:08 140179655866176 [Note] Recovering after a crash using tc.log
+2019-03-03 16:39:08 140179655866176 [Note] Starting crash recovery...
+2019-03-03 16:39:08 140179655866176 [Note] Crash recovery finished.
+2019-03-03 16:39:08 140179655866176 [Note] Server socket created on IP: '::'.
+2019-03-03 16:39:08 140179655866176 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:44:56 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:44:56 139796927985472 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:44:56 139796927985472 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 217 ...
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1768254 in the ib_logfiles!
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:44:56 139796927985472 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:44:57 139796927985472 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:44:57 139796927985472 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:44:58 139796927985472 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:44:58 139796927985472 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:44:58 139796927985472 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1768254
+2019-03-03 16:44:58 139796521400064 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:44:58 139796927985472 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:44:58 139796927985472 [Note] Recovering after a crash using tc.log
+2019-03-03 16:44:58 139796927985472 [Note] Starting crash recovery...
+2019-03-03 16:44:58 139796927985472 [Note] Crash recovery finished.
+2019-03-03 16:44:58 139796927985472 [Note] Server socket created on IP: '::'.
+2019-03-03 16:44:58 139796927985472 [ERROR] mysqld: Table './mysql/user' is marked as crashed and should be repaired
+2019-03-03 16:44:58 139796927985472 [Warning] Checking table:   './mysql/user'
+2019-03-03 16:44:58 139796927985472 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2019-03-03 16:44:59 139796927985472 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:45:10 64 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:45:10 140260080686912 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:45:10 140260080686912 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 214 ...
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1768264 in the ib_logfiles!
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:45:10 140260080686912 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:45:11 140260080686912 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:45:11 140260080686912 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:45:11 140260080686912 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:45:11 140260080686912 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:45:11 140260080686912 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1768264
+2019-03-03 16:45:11 140259749910272 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:45:11 140260080686912 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:45:11 140260080686912 [Note] Recovering after a crash using tc.log
+2019-03-03 16:45:11 140260080686912 [Note] Starting crash recovery...
+2019-03-03 16:45:11 140260080686912 [Note] Crash recovery finished.
+2019-03-03 16:45:11 140260080686912 [Note] Server socket created on IP: '::'.
+2019-03-03 16:45:12 140260080686912 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:46:40 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:46:40 140155642111808 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:46:40 140155642111808 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 211 ...
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1768274 in the ib_logfiles!
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:46:40 140155642111808 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:46:41 140155642111808 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:46:41 140155642111808 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:46:41 140155642111808 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1768274
+2019-03-03 16:46:41 140155235063552 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:46:41 140155642111808 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:46:41 140155642111808 [Note] Recovering after a crash using tc.log
+2019-03-03 16:46:41 140155642111808 [Note] Starting crash recovery...
+2019-03-03 16:46:41 140155642111808 [Note] Crash recovery finished.
+2019-03-03 16:46:41 140155642111808 [Note] Server socket created on IP: '::'.
+2019-03-03 16:46:41 140155642111808 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:49:15 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:49:15 139937374385984 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:49:15 139937374385984 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1768284 in the ib_logfiles!
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:49:15 139937374385984 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:49:16 139937374385984 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:49:16 139937374385984 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:49:16 139937374385984 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:49:16 139937374385984 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:49:16 139937374385984 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1768284
+2019-03-03 16:49:16 139936971859712 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:49:16 139937374385984 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:49:16 139937374385984 [Note] Recovering after a crash using tc.log
+2019-03-03 16:49:16 139937374385984 [Note] Starting crash recovery...
+2019-03-03 16:49:16 139937374385984 [Note] Crash recovery finished.
+2019-03-03 16:49:16 139937374385984 [Note] Server socket created on IP: '::'.
+2019-03-03 16:49:17 139937374385984 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:52:29 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:52:29 140205256456000 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:52:29 140205256456000 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1769467 in the ib_logfiles!
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:52:29 140205256456000 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:52:30 140205256456000 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:52:30 140205256456000 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:52:30 140205256456000 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1769467
+2019-03-03 16:52:30 140204925036288 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:52:30 140205256456000 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:52:30 140205256456000 [Note] Recovering after a crash using tc.log
+2019-03-03 16:52:30 140205256456000 [Note] Starting crash recovery...
+2019-03-03 16:52:30 140205256456000 [Note] Crash recovery finished.
+2019-03-03 16:52:30 140205256456000 [Note] Server socket created on IP: '::'.
+2019-03-03 16:52:30 140205256456000 [ERROR] mysqld: Table './mysql/user' is marked as crashed and should be repaired
+2019-03-03 16:52:30 140205256456000 [Warning] Checking table:   './mysql/user'
+2019-03-03 16:52:30 140205256456000 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2019-03-03 16:52:30 140205256456000 [ERROR] mysqld: Table './mysql/db' is marked as crashed and should be repaired
+2019-03-03 16:52:30 140205256456000 [Warning] Checking table:   './mysql/db'
+2019-03-03 16:52:30 140205256456000 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+2019-03-03 16:52:30 140205256456000 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:54:45 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:54:45 139649573500736 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:54:45 139649573500736 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770082 in the ib_logfiles!
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:54:45 139649573500736 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:54:46 139649573500736 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:54:46 139649573500736 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:54:46 139649573500736 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:54:46 139649573500736 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:54:46 139649573500736 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770082
+2019-03-03 16:54:46 139649167120128 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:54:46 139649573500736 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:54:46 139649573500736 [Note] Recovering after a crash using tc.log
+2019-03-03 16:54:46 139649573500736 [Note] Starting crash recovery...
+2019-03-03 16:54:46 139649573500736 [Note] Crash recovery finished.
+2019-03-03 16:54:46 139649573500736 [Note] Server socket created on IP: '::'.
+2019-03-03 16:54:46 139649573500736 [ERROR] mysqld: Table './mysql/user' is marked as crashed and should be repaired
+2019-03-03 16:54:46 139649573500736 [Warning] Checking table:   './mysql/user'
+2019-03-03 16:54:46 139649573500736 [ERROR] mysql.user: 1 client is using or hasn't closed the table properly
+2019-03-03 16:54:46 139649573500736 [ERROR] mysqld: Table './mysql/db' is marked as crashed and should be repaired
+2019-03-03 16:54:46 139649573500736 [Warning] Checking table:   './mysql/db'
+2019-03-03 16:54:46 139649573500736 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+2019-03-03 16:54:46 139649573500736 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 16:55:41 139649456675584 [Warning] IP address '172.20.0.1' could not be resolved: Name or service not known
+2019-03-03 16:57:34 64 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 16:57:34 140415450650432 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 16:57:34 140415450650432 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 214 ...
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770247 in the ib_logfiles!
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Starting crash recovery.
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 16:57:34 140415450650432 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 16:57:35 140415450650432 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 16:57:35 140415450650432 [Note] InnoDB: Waiting for purge to start
+2019-03-03 16:57:35 140415450650432 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770247
+2019-03-03 16:57:35 140415047014144 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 16:57:35 140415450650432 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 16:57:35 140415450650432 [Note] Recovering after a crash using tc.log
+2019-03-03 16:57:35 140415450650432 [Note] Starting crash recovery...
+2019-03-03 16:57:35 140415450650432 [Note] Crash recovery finished.
+2019-03-03 16:57:35 140415450650432 [Note] Server socket created on IP: '::'.
+2019-03-03 16:57:35 140415450650432 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:05:52 62 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:05:52 140559634405184 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:05:52 140559634405184 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770257 in the ib_logfiles!
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:05:52 140559634405184 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:05:53 140559634405184 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:05:53 140559634405184 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:05:53 140559634405184 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770257
+2019-03-03 17:05:53 140559230424832 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:05:53 140559634405184 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:05:53 140559634405184 [Note] Recovering after a crash using tc.log
+2019-03-03 17:05:53 140559634405184 [Note] Starting crash recovery...
+2019-03-03 17:05:53 140559634405184 [Note] Crash recovery finished.
+2019-03-03 17:05:53 140559634405184 [Note] Server socket created on IP: '::'.
+2019-03-03 17:05:53 140559634405184 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:07:23 62 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:07:23 140639407789888 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:07:23 140639407789888 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770267 in the ib_logfiles!
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:07:23 140639407789888 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:07:24 140639407789888 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:07:24 140639407789888 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:07:24 140639407789888 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770267
+2019-03-03 17:07:24 140639006078720 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:07:24 140639407789888 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:07:24 140639407789888 [Note] Recovering after a crash using tc.log
+2019-03-03 17:07:24 140639407789888 [Note] Starting crash recovery...
+2019-03-03 17:07:24 140639407789888 [Note] Crash recovery finished.
+2019-03-03 17:07:24 140639407789888 [Note] Server socket created on IP: '::'.
+2019-03-03 17:07:24 140639407789888 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:08:43 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:08:43 140404726355776 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:08:43 140404726355776 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770277 in the ib_logfiles!
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:08:43 140404726355776 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:08:44 140404726355776 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:08:44 140404726355776 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:08:44 140404726355776 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770277
+2019-03-03 17:08:44 140404326381312 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:08:44 140404726355776 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:08:44 140404726355776 [Note] Recovering after a crash using tc.log
+2019-03-03 17:08:44 140404726355776 [Note] Starting crash recovery...
+2019-03-03 17:08:44 140404726355776 [Note] Crash recovery finished.
+2019-03-03 17:08:44 140404726355776 [Note] Server socket created on IP: '::'.
+2019-03-03 17:08:44 140404726355776 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:09:38 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:09:38 140438895544128 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:09:38 140438895544128 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770287 in the ib_logfiles!
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:09:38 140438895544128 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:09:39 140438895544128 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:09:39 140438895544128 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:09:39 140438895544128 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:09:39 140438895544128 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:09:39 140438895544128 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770287
+2019-03-03 17:09:39 140438493185792 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:09:39 140438895544128 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:09:39 140438895544128 [Note] Recovering after a crash using tc.log
+2019-03-03 17:09:39 140438895544128 [Note] Starting crash recovery...
+2019-03-03 17:09:39 140438895544128 [Note] Crash recovery finished.
+2019-03-03 17:09:39 140438895544128 [Note] Server socket created on IP: '::'.
+2019-03-03 17:09:39 140438895544128 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:11:19 62 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:11:19 140711804524352 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:11:19 140711804524352 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770297 in the ib_logfiles!
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:11:19 140711804524352 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:11:20 140711804524352 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:11:20 140711804524352 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:11:20 140711804524352 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770297
+2019-03-03 17:11:20 140711399757568 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:11:20 140711804524352 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:11:20 140711804524352 [Note] Recovering after a crash using tc.log
+2019-03-03 17:11:20 140711804524352 [Note] Starting crash recovery...
+2019-03-03 17:11:20 140711804524352 [Note] Crash recovery finished.
+2019-03-03 17:11:20 140711804524352 [Note] Server socket created on IP: '::'.
+2019-03-03 17:11:20 140711804524352 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:12:56 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:12:56 140476852762432 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:12:56 140476852762432 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770307 in the ib_logfiles!
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:12:56 140476852762432 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:12:57 140476852762432 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:12:57 140476852762432 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:12:57 140476852762432 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:12:57 140476852762432 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:12:57 140476852762432 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770307
+2019-03-03 17:12:57 140476451624704 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:12:57 140476852762432 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:12:57 140476852762432 [Note] Recovering after a crash using tc.log
+2019-03-03 17:12:57 140476852762432 [Note] Starting crash recovery...
+2019-03-03 17:12:57 140476852762432 [Note] Crash recovery finished.
+2019-03-03 17:12:57 140476852762432 [Note] Server socket created on IP: '::'.
+2019-03-03 17:12:57 140476852762432 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:15:55 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:15:55 140239833958208 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:15:55 140239833958208 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770317 in the ib_logfiles!
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:15:55 140239833958208 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:15:56 140239833958208 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:15:56 140239833958208 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:15:56 140239833958208 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:15:56 140239833958208 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:15:56 140239833958208 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770317
+2019-03-03 17:15:56 140239431509760 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:15:56 140239833958208 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:15:56 140239833958208 [Note] Recovering after a crash using tc.log
+2019-03-03 17:15:56 140239833958208 [Note] Starting crash recovery...
+2019-03-03 17:15:56 140239833958208 [Note] Crash recovery finished.
+2019-03-03 17:15:56 140239833958208 [Note] Server socket created on IP: '::'.
+2019-03-03 17:15:56 140239833958208 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:20:23 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:20:23 140482104612672 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:20:23 140482104612672 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770327 in the ib_logfiles!
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:20:23 140482104612672 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:20:24 140482104612672 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:20:24 140482104612672 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:20:24 140482104612672 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:20:24 140482104612672 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:20:24 140482104612672 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770327
+2019-03-03 17:20:24 140481702901504 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:20:24 140482104612672 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:20:24 140482104612672 [Note] Recovering after a crash using tc.log
+2019-03-03 17:20:24 140482104612672 [Note] Starting crash recovery...
+2019-03-03 17:20:24 140482104612672 [Note] Crash recovery finished.
+2019-03-03 17:20:24 140482104612672 [Note] Server socket created on IP: '::'.
+2019-03-03 17:20:24 140482104612672 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:20:39 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:20:39 140664005056320 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:20:39 140664005056320 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 211 ...
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770337 in the ib_logfiles!
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:20:39 140664005056320 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:20:40 140664005056320 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:20:40 140664005056320 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:20:40 140664005056320 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:20:40 140664005056320 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:20:40 140664005056320 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770337
+2019-03-03 17:20:40 140663601493760 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:20:40 140664005056320 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:20:40 140664005056320 [Note] Recovering after a crash using tc.log
+2019-03-03 17:20:40 140664005056320 [Note] Starting crash recovery...
+2019-03-03 17:20:40 140664005056320 [Note] Crash recovery finished.
+2019-03-03 17:20:40 140664005056320 [Note] Server socket created on IP: '::'.
+2019-03-03 17:20:40 140664005056320 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:21:10 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:21:10 140011533535040 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:21:10 140011533535040 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:21:10 140011533535040 [Warning] Setting lower_case_table_names=2 because file system for /opt/lampp/var/mysql/ is case insensitive
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770347 in the ib_logfiles!
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:21:10 140011533535040 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:21:11 140011533535040 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:21:11 140011533535040 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:21:11 140011533535040 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770347
+2019-03-03 17:21:11 140011127154432 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:21:11 140011533535040 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:21:11 140011533535040 [Note] Recovering after a crash using tc.log
+2019-03-03 17:21:11 140011533535040 [Note] Starting crash recovery...
+2019-03-03 17:21:11 140011533535040 [Note] Crash recovery finished.
+2019-03-03 17:21:11 140011533535040 [Note] Server socket created on IP: '::'.
+2019-03-03 17:21:11 140011533535040 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:22:11 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:22:11 140257358030656 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:22:11 140257358030656 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 214 ...
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770357 in the ib_logfiles!
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:22:11 140257358030656 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:22:12 140257358030656 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:22:12 140257358030656 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:22:12 140257358030656 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:22:12 140257358030656 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:22:12 140257358030656 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770357
+2019-03-03 17:22:12 140256955315968 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:22:12 140257358030656 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:22:12 140257358030656 [Note] Recovering after a crash using tc.log
+2019-03-03 17:22:12 140257358030656 [Note] Starting crash recovery...
+2019-03-03 17:22:12 140257358030656 [Note] Crash recovery finished.
+2019-03-03 17:22:12 140257358030656 [Note] Server socket created on IP: '::'.
+2019-03-03 17:22:12 140257358030656 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:31:30 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:31:30 140474961348416 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:31:30 140474961348416 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770367 in the ib_logfiles!
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:31:30 140474961348416 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:31:31 140474961348416 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:31:31 140474961348416 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:31:31 140474961348416 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770367
+2019-03-03 17:31:31 140474555823872 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:31:31 140474961348416 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:31:31 140474961348416 [Note] Recovering after a crash using tc.log
+2019-03-03 17:31:31 140474961348416 [Note] Starting crash recovery...
+2019-03-03 17:31:31 140474961348416 [Note] Crash recovery finished.
+2019-03-03 17:31:31 140474961348416 [Note] Server socket created on IP: '::'.
+2019-03-03 17:31:31 140474961348416 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:36:28 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:36:28 140562611345216 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:36:28 140562611345216 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770377 in the ib_logfiles!
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:36:28 140562611345216 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:36:29 140562611345216 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:36:29 140562611345216 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:36:29 140562611345216 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770377
+2019-03-03 17:36:29 140562279737088 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:36:29 140562611345216 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:36:29 140562611345216 [Note] Recovering after a crash using tc.log
+2019-03-03 17:36:29 140562611345216 [Note] Starting crash recovery...
+2019-03-03 17:36:29 140562611345216 [Note] Crash recovery finished.
+2019-03-03 17:36:29 140562611345216 [Note] Server socket created on IP: '::'.
+2019-03-03 17:36:29 140562611345216 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:41:20 59 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:41:20 140675128788800 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:41:20 140675128788800 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 209 ...
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770387 in the ib_logfiles!
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:41:20 140675128788800 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:41:21 140675128788800 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:41:21 140675128788800 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:41:21 140675128788800 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770387
+2019-03-03 17:41:21 140674724779776 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:41:21 140675128788800 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:41:21 140675128788800 [Note] Recovering after a crash using tc.log
+2019-03-03 17:41:21 140675128788800 [Note] Starting crash recovery...
+2019-03-03 17:41:21 140675128788800 [Note] Crash recovery finished.
+2019-03-03 17:41:21 140675128788800 [Note] Server socket created on IP: '::'.
+2019-03-03 17:41:21 140675128788800 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:43:50 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-03 17:43:50 140683397048128 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-03 17:43:50 140683397048128 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 213 ...
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770397 in the ib_logfiles!
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Database was not shutdown normally!
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Starting crash recovery.
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-03 17:43:50 140683397048128 [Note] InnoDB: from the doublewrite buffer...
+2019-03-03 17:43:51 140683397048128 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-03 17:43:51 140683397048128 [Note] InnoDB: Waiting for purge to start
+2019-03-03 17:43:51 140683397048128 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770397
+2019-03-03 17:43:51 140682987562752 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-03 17:43:51 140683397048128 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-03 17:43:51 140683397048128 [Note] Recovering after a crash using tc.log
+2019-03-03 17:43:51 140683397048128 [Note] Starting crash recovery...
+2019-03-03 17:43:51 140683397048128 [Note] Crash recovery finished.
+2019-03-03 17:43:51 140683397048128 [Note] Server socket created on IP: '::'.
+2019-03-03 17:43:51 140683397048128 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
+2019-03-03 17:44:10 140683271830272 [Warning] IP address '172.21.0.1' could not be resolved: Name or service not known
+2019-03-04 16:21:12 63 mysqld_safe Starting mysqld daemon with databases from /opt/lampp/var/mysql
+2019-03-04 16:21:12 140532862392128 [Note] Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.
+2019-03-04 16:21:12 140532862392128 [Note] /opt/lampp/sbin/mysqld (mysqld 10.1.21-MariaDB) starting as process 211 ...
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: The InnoDB memory heap is disabled
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: Using SSE crc32 instructions
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: The log sequence numbers 1762733 and 1762733 in ibdata files do not match the log sequence number 1770407 in the ib_logfiles!
+2019-03-04 16:21:12 140532862392128 [Note] InnoDB: Database was not shutdown normally!
+2019-03-04 16:21:13 140532862392128 [Note] InnoDB: Starting crash recovery.
+2019-03-04 16:21:13 140532862392128 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2019-03-04 16:21:13 140532862392128 [Note] InnoDB: Restoring possible half-written data pages 
+2019-03-04 16:21:13 140532862392128 [Note] InnoDB: from the doublewrite buffer...
+2019-03-04 16:21:13 140532862392128 [Note] InnoDB: 128 rollback segment(s) are active.
+2019-03-04 16:21:13 140532862392128 [Note] InnoDB: Waiting for purge to start
+2019-03-04 16:21:14 140532862392128 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 1770407
+2019-03-04 16:21:14 140532453988096 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2019-03-04 16:21:14 140532862392128 [Note] Plugin 'FEEDBACK' is disabled.
+2019-03-04 16:21:14 140532862392128 [Note] Recovering after a crash using tc.log
+2019-03-04 16:21:14 140532862392128 [Note] Starting crash recovery...
+2019-03-04 16:21:14 140532862392128 [Note] Crash recovery finished.
+2019-03-04 16:21:14 140532862392128 [Note] Server socket created on IP: '::'.
+2019-03-04 16:21:14 140532862392128 [Note] /opt/lampp/sbin/mysqld: ready for connections.
+Version: '10.1.21-MariaDB'  socket: '/opt/lampp/var/mysql/mysql.sock'  port: 3306  Source distribution
