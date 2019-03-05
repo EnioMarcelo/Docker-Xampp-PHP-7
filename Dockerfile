@@ -32,6 +32,7 @@ services:
     
     #depends_on:
     #  - db
+    
     restart: always
 
 
