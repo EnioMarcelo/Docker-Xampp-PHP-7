@@ -29,10 +29,11 @@ services:
 
     #links:
     #  - db
+    
     #depends_on:
     #  - db
     restart: always
 
-    
+
     networks:
       - buzza-xampp-network
