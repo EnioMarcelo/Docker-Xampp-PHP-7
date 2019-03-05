@@ -21,11 +21,10 @@ services:
       - /Users/eniomarcelobuzaneli/Documents/Docker/xampp/phpmyadmin/config.inc.php:/opt/lampp/phpmyadmin/config.inc.php
       - /Users/eniomarcelobuzaneli/Documents/Docker/xampp/mysql:/opt/lampp/var/mysql
       - /Users/eniomarcelobuzaneli/Documents/Docker/xampp/apache2/conf/httpd.conf:/opt/lampp/apache2/conf/httpd.conf
-  
       
       
     environment:
-      - TZ=America/Curacao
+      - TZ=America/Campo_Grande
 
     #links:
     #  - db
@@ -34,7 +33,6 @@ services:
     #  - db
     
     restart: always
-
 
     networks:
       - buzza-xampp-network
